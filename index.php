@@ -6,7 +6,6 @@ do {
     $b = readline();
     if($a > 100 || $b > 100){
         echo "Input numbers less than 100!\n";
-        continue;
     }
     else {
         echo $a * $b;
